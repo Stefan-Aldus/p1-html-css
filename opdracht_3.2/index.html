@@ -15,18 +15,27 @@
     <form>
       <h3>Persoonlijke info</h3>
       <label for="firstname">Voornaam:</label><br />
-      <input type="text" id="firstname" pattern="[A-Za-z]" name="firstname" />
-      <br />
-      <br />
+      <input type="text" id="firstname" name="firstname" pattern="[A-Za-z]+" />
+      <br /><br />
+
       <label for="lastname">Achternaam:</label> <br />
-      <input type="text" name="lastname" id="lastname" />
-      <br />
-      <br />
+      <input type="text" name="lastname" id="lastname" pattern="[A-Za-z]+"/>
+      <br /><br />
+
       <label for="bsn">BSN Nummer:</label>
       <br />
-      <input type="number" name="bsn nummer" id="bsn nummer" pattern="{9}" />
+      <input type="number" name="bsn nummer" id="bsn nummer" pattern="[1-9]{9}" />
+      <br /><br />
+
+      <label for="email">Emailadress:</label>
       <br />
+      <input type="email" name="email" id="email" />
+      <br /><br />
+
+      <label for="password">Wachtwoord:</label>
       <br />
+      <input type="password" name="password" id="password" />
+      <br /><br />
 
       <label for="gender">Geslacht:</label> <br />
       <input type="radio" name="gender" id="man" value="Man" checked />
@@ -37,33 +46,28 @@
       <br />
       <input type="radio" name="gender" id="anders" value="Anders" />
       <label for="anders">Anders</label>
-      <br />
-      <br />
+      <br /><br />
 
       <h3>Woonadres</h3>
       <label for="adress">Straat met huisnummer:</label>
       <br />
       <input type="text" name="adress" id="adress" />
-      <br />
-      <br />
+      <br /><br />
 
       <label for="postcode">Postcode:</label>
       <br />
       <input type="text" name="postcode" id="postcode" pattern="{6}" />
-      <br />
-      <br />
+      <br /><br />
 
       <label for="city">Stad:</label>
       <br />
       <input type="text" name="city" id="city" />
-      <br />
-      <br />
+      <br /><br />
 
       <label for="country">Land:</label>
       <br />
       <input type="text" name="country" id="country" value="Nederland" />
-      <br />
-      <br />
+      <br /><br />
 
       <h3>Vakantie info</h3>
       <label for="vakantie">Bestemming:</label>
@@ -76,8 +80,14 @@
       <br />
       <input type="radio" name="vakantie" id="vakantie" value="Greece" />
       <label for="Greece">Kos, Griekenland</label>
+      <br /><br />
+
+      <label for="people">Hoeveel mensen:</label>
       <br />
-      <br />
+      <input type="number" name="people" id="people" pattern="[1-4]" />
+      <br /><br />
+
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
