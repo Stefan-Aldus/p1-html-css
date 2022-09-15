@@ -14,126 +14,162 @@
 
     <form>
       <h3>Persoonlijke info</h3>
-      <label for="firstname">Voornaam:</label><br />
-      <input
-        type="text"
-        id="firstname"
-        name="firstname"
-        pattern="[A-Za-z]+"
-        required
-      />
-      <br /><br />
+      <div>
+        <label for="firstname">Voornaam:</label>
+        <br />
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          pattern="[A-Za-z]+"
+          required
+        />
+      </div>
 
-      <label for="lastname">Achternaam:</label> <br />
-      <input
-        type="text"
-        name="lastname"
-        id="lastname"
-        pattern="[A-Za-z]+"
-        required
-      />
-      <br /><br />
+      <div>
+        <label for="lastname">Achternaam:</label>
+        <br />
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          pattern="[A-Za-z]+"
+          required
+        />
+      </div>
 
-      <label for="bsn">BSN Nummer:</label>
-      <br />
-      <input
-        type="text"
-        name="bsn nummer"
-        id="bsn nummer"
-        pattern="[0-9]{9}"
-        required
-      />
-      <br /><br />
+      <div>
+        <label for="bsn">BSN Nummer:</label>
+        <br />
+        <input
+          type="text"
+          name="bsn nummer"
+          id="bsn nummer"
+          pattern="[0-9]{9}"
+          required
+        />
+      </div>
 
-      <label for="email">Emailadress:</label>
-      <br />
-      <input type="email" name="email" id="email" required />
-      <br /><br />
+      <div>
+        <label for="email">Emailadress:</label>
+        <br />
+        <input type="email" name="email" id="email" required />
+      </div>
 
-      <label for="password">Wachtwoord:</label>
-      <br />
-      <input type="password" name="password" id="password" required />
-      <br /><br />
+      <div>
+        <label for="password">Wachtwoord:</label>
+        <br />
+        <input type="password" name="password" id="password" required />
+      </div>
 
-      <label for="gender">Geslacht:</label> <br />
-      <input type="radio" name="gender" id="man" value="Man" checked required />
-      <label for="man">Man</label>
-      <br />
-      <input type="radio" name="gender" id="vrouw" value="Vrouw" required />
-      <label for="vrouw">Vrouw</label>
-      <br />
-      <input type="radio" name="gender" id="anders" value="Anders" required />
-      <label for="anders">Anders</label>
-      <br /><br />
+      <div>
+        <label for="gender">Geslacht:</label>
+        <br />
+        <input
+          type="radio"
+          name="gender"
+          id="man"
+          value="Man"
+          checked
+          required
+        />
+        <label for="man">Man</label>
+        <br />
+        <input type="radio" name="gender" id="vrouw" value="Vrouw" required />
+        <label for="vrouw">Vrouw</label>
+        <br />
+        <input type="radio" name="gender" id="anders" value="Anders" required />
+        <label for="anders">Anders</label>
+      </div>
 
       <h3>Woonadres</h3>
-      <label for="adress">Straat met huisnummer:</label>
-      <br />
-      <input type="text" name="adress" id="adress" required />
-      <br /><br />
+      <div>
+        <label for="adress">Straat met huisnummer:</label>
+        <br />
+        <input type="text" name="adress" id="adress" required />
+      </div>
 
-      <label for="postcode">Postcode:</label>
-      <br />
-      <input type="text" name="postcode" id="postcode" pattern="{6}" required />
-      <br /><br />
+      <div>
+        <label for="postcode">Postcode:</label>
+        <br />
+        <input
+          type="text"
+          name="postcode"
+          id="postcode"
+          pattern="{6}"
+          required
+        />
+      </div>
 
-      <label for="city">Stad:</label>
-      <br />
-      <input type="text" name="city" id="city" required />
-      <br /><br />
+      <div>
+        <label for="city">Stad:</label>
+        <br />
+        <input type="text" name="city" id="city" required />
+      </div>
 
-      <label for="country">Land:</label>
-      <br />
-      <input
-        type="text"
-        name="country"
-        id="country"
-        value="Nederland"
-        required
-      />
-      <br /><br />
+      <div>
+        <label for="country">Land:</label>
+        <br />
+        <input
+          type="text"
+          name="country"
+          id="country"
+          value="Nederland"
+          required
+        />
+      </div>
 
       <h3>Vakantie info</h3>
-      <label for="vakantie">Bestemming:</label>
-      <br />
-      <input
-        type="radio"
-        name="vakantie"
-        id="vakantie"
-        value="Nederland"
-        required
-      />
-      <label for="nederland">Amsterdam, Nederland</label>
-      <br />
-      <input type="radio" name="vakantie" id="vakantie" value="VS" required />
-      <label for="vs">New York City, VS</label>
-      <br />
-      <input
-        type="radio"
-        name="vakantie"
-        id="vakantie"
-        value="Greece"
-        required
-      />
-      <label for="Greece">Kos, Griekenland</label>
-      <br /><br />
+      <div>
+        <label for="vakantie">Bestemming:</label>
+        <br />
+        <input
+          type="radio"
+          name="vakantie"
+          id="vakantie"
+          value="Nederland"
+          required
+        />
+        <label for="nederland">Amsterdam, Nederland</label>
+        <br />
+        <input type="radio" name="vakantie" id="vakantie" value="VS" required />
+        <label for="vs">New York City, VS</label>
+      </div>
 
-      <label for="leaving">Vertrek Datum:</label>
-      <br />
-      <input type="date" name="Datum" id="leaving" min="2022-08-09" required />
-      <br />
-      <br />
+      <div>
+        <input
+          type="radio"
+          name="vakantie"
+          id="vakantie"
+          value="Greece"
+          required
+        />
+        <label for="Greece">Kos, Griekenland</label>
+      </div>
 
-      <label for="back">Terugkomst:</label>
-      <br />
-      <input type="date" name="back" id="back" required />
-      <br />
-      <br />
+      <div>
+        <label for="leaving">Vertrek Datum:</label>
+        <br />
+        <input
+          type="date"
+          name="Datum"
+          id="leaving"
+          min="2022-08-09"
+          required
+        />
+      </div>
 
-      <label for="people">Aantal mensen:</label>
-      <br />
-      <input type="number" name="people" id="people" min="1" max="4" />
-      <br /><br />
+      <div>
+        <label for="back">Terugkomst:</label>
+        <br />
+        <input type="date" name="back" id="back" required />
+      </div>
+
+      <div>
+        <label for="people">Aantal mensen:</label>
+        <br />
+        <input type="number" name="people" id="people" min="1" max="4" />
+      </div>
 
       <input type="submit" value="Boek Nu" />
     </form>
