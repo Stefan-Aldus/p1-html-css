@@ -29,3 +29,28 @@ a, a:visited, a:hover {
     color: #8A2BE2;
     text-decoration: none;
 }
+
+header{
+    width: 100vw;
+    height: 33vw;
+    background-image: url(./img/steam.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1, header p{
+    color: blueviolet;
+}
+
+img{
+    width: 50vw;
+}
+
+article{
+    border-style: dashed;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color:wheat;
+    border-left-width: 10px;
+}
