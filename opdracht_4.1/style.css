@@ -11,6 +11,12 @@ h2{
     font-weight: 500;
 }
 
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: 500;
+}
+
 p{
     color: #4D4D4D;
 }
