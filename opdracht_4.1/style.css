@@ -1,18 +1,22 @@
+html {
+    font-size: 62.5%;
+}
+
 h1{
-    font-size: 24px;
+    font-size: 2.4rem;
     color: blue;
     font-weight: bold;
     font-style: italic;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 2rem;
     color: #0000ff;
     font-weight: bold;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 1.6rem;
     color: teal;
     font-weight: bold;
 }
@@ -32,7 +36,7 @@ a, a:visited, a:hover {
 
 header{
     width: 100vw;
-    height: 33vw;
+    height: 33vh;
     background-image: url(./img/steam.jfif);
     background-repeat: no-repeat;
     background-position: center;
@@ -49,8 +53,8 @@ img{
 
 article{
     border-style: dashed;
-    border-radius: 10px;
-    border-width: 5px;
+    border-radius: 1rem;
+    border-width: 0.5rem;
     border-color:wheat;
-    border-left-width: 10px;
+    border-left-width: 1rem;
 }
