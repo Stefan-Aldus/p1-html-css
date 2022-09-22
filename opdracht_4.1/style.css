@@ -25,7 +25,7 @@ p{
     color: #4D4D4D;
 }
 
-#first p{
+.first p{
     font-style: italic;
 }
 
