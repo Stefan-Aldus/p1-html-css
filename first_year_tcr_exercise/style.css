@@ -13,6 +13,23 @@ body {
   background-image: url(./img/hacker2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
+  color: white;
+}
+
+header {
+  font-weight: 700;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+footer {
+  background: #00a8c7;
+  height: 10vh;
+  width: 100vw;
 }
 
 nav {
