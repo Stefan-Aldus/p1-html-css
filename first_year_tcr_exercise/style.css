@@ -8,31 +8,61 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  font-size: 2rem;
   width: 100vw;
+  min-width: 100vw;
+  min-height: 100vh;
   height: 100vh;
   background-image: url(./img/hacker2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
   color: white;
+  position: absolute;
+  overflow-x: hidden;
 }
 
 header {
   font-weight: 700;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 8rem;
+  font-size: 7rem;
+  position: relative;
+  right: 5rem;
+}
+
+h1 {
+  position: relative;
+  left: 3rem;
+  width: 90vw;
+  font-size: 7rem;
+  margin-bottom: 30rem;
 }
 
 section {
   width: 100vw;
   height: 100vh;
+  position: relative;
+  margin-bottom: 0rem;
+  margin-top: -30rem;
 }
 
 footer {
   background: #00a8c7;
-  height: 10vh;
+  height: 7vh;
   width: 100vw;
+  position: absolute;
+  text-align: center;
+  padding: 5rem;
 }
+/* Ik heb geen bottom: 0 ivm de footer, die bij gebruik hiervan midden in de pagina staat ipv aan de onderkant */
 
 nav {
+  z-index: 1;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -42,6 +72,9 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 nav ul {
   display: flex;
@@ -58,4 +91,36 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+
+main {
+  margin-top: 50vh;
+}
+
+
+.paragraphl {
+  position: relative;
+  left: 50vw;
+  width: 20vw;
+  bottom: 30vh;
+}
+
+.imgr {
+  position: relative;
+  left: 20vw;
+  top: 5rem;
+}
+
+.imgl {
+  position: relative;
+  left: 60vw;
+  top: 5rem;
+}
+
+.paragraphr {
+  position: relative;
+  left: 20vw;
+  width: 20vw;
+  bottom: 30vh;
 }
