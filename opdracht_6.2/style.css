@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.blackbox{
+    background-color: black;
+    width: 20rem;
+    height: 20rem;
+    max-width: 120rem;
+}
+.bluebox {
+    background-color: blue;
+    width: 20rem;
+    height: 20rem;
+    max-width: 120rem;
+}
+.redbox {
+    background-color: red;
+    width: 20rem;
+    height: 20rem;
+    max-width: 120rem;
+}
+.greenbox {
+    background-color: green;
+    width: 20rem;
+    height: 20rem;
+    max-width: 120rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row-reverse nowrap;
+}
