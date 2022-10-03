@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-size: 1rem;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbarflex {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100vw;
+}
+
+.navbarflex2 {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
