@@ -22,10 +22,12 @@ ul {
     justify-content: space-around;
     height: 5vh;
     width: 100vw;
+    flex-wrap: nowrap;
 }
 
 .navbarflex2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
     width: 20vw;
 }
