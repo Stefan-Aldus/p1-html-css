@@ -88,7 +88,7 @@ nav li {
   float: left;
 }
 li a{
-  display: inline-block;
+  display: flex;
   padding: 0.8rem 1rem;
   text-align: center;
   text-decoration: none;
@@ -103,7 +103,7 @@ li a{
 }
 .dropdown-content a{
   padding: 0.8rem 1rem;
-  display: block;
+  display: flex;
   text-align: left;
   color: #00a8c7;
 }
@@ -112,7 +112,8 @@ li a{
   color: #00a8c7;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .dropdown-content a:hover{
   background-color: #E9E9E9;
