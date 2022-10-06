@@ -35,6 +35,9 @@ html{
     height: 30vh;
     flex-direction: column;
 }
+p, header, h1{
+    margin-left: 5rem;
+}
 
 .section2{
     display: flex;
