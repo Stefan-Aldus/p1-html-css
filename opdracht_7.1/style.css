@@ -53,6 +53,25 @@ p, header, h1{
     height: 30vh;
 }
 
+
+@media screen and (max-width: 768px) and (min-width: 577px){
+    .header1{
+        background-color: #ff6b81;
+    }
+    .section1{
+        background-color: #fe4657;
+        color: white;
+    }
+    .section2{
+        background-color: #5352ec;
+        color: white;
+    }
+    .section3{
+        background-color: #3742f9;
+        color: white;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .navbardiv{
         display: block;
@@ -71,24 +90,6 @@ p, header, h1{
     }
     .section3{
         background-color: #30336a;
-        color: white;
-    }
-}
-
-@media screen and (max-width: 768px) and (min-width: 577px){
-    .header1{
-        background-color: #ff6b81;
-    }
-    .section1{
-        background-color: #fe4657;
-        color: wheat;
-    }
-    .section2{
-        background-color: #5352ec;
-        color: white;
-    }
-    .section3{
-        background-color: #3742f9;
         color: white;
     }
 }
